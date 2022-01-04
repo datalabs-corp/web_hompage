@@ -1,10 +1,10 @@
 /* background image */
 
 .why__container.list-1 > .why__img {
-  background-image: url("../images/why_item1.jpg");
+  background-image: url("../images/why_item1.webp");
 }
 .why__container.list-2 > .why__img{
-  background-image: url("../images/why_item2.jpg");
+  background-image: url("../images/why_item2.webp");
 }
 .why__container.list-3 > .why__img{
   background-image: url("../images/why_item3.webp");
@@ -37,7 +37,6 @@
 /* Technology */
 
 #technology {
-  /* background-color: khaki; */
   background-size: cover;
   padding-top: 10rem;
   width: 100%;
@@ -109,6 +108,7 @@
 
 #why {
   height: auto;
+  padding-bottom: 10rem;
 }
 
 .why__title {
@@ -139,14 +139,10 @@
   justify-content: center;
   align-items: center;
   width: 60%;
-  
 }
 
 .desciription__head {
   display: flex;
-}
-
-.description__title {
 }
 
 .description__container {
@@ -172,40 +168,40 @@
 /* Data Chain */
 
 #datachain {
-  background-color: ghostwhite;
-  height: 30rem;
-  margin-top: 10rem;
-}
-
-.datachain__info__container {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  height: 100%;
+  text-align: center;
+  padding-bottom: 10rem;
 }
 
-.datachain__info {
+.datachain__img {
   width: 70%;
-  line-height: 1.9;
-  animation: rightSlide 1s;
 }
 
-.info__button {
-  background: gray;
-  font-size: 1rem;
-  padding:1rem;
-  margin-top: 1rem;
-  border: none;
-  border-radius: 50px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: 0.3s ease-out;
+.datachain__img > img {
+  width: 100%;
 }
 
-.info__button:hover {
-  background: black;
-  color:white;
-  transition: 0.3s ease-out;
+/* Architecture */
+
+#architecture {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 10rem;
+}
+
+.architecture__container {
+  text-align: center;
+}
+
+.architecture__img {
+  width: 70%;
+}
+
+.architecture__img > img {
+  width: 100%;
 }
 
 /* Animation */

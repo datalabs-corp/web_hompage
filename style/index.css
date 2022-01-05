@@ -117,21 +117,21 @@
   transition: 0.5s;
 }
 
-/* My info Wallet */
+/* My info market */
 
-.myInfoWallet__intro {
+.myInfomarket__intro {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 10rem 0 10rem 0;
 }
 
-.myInfoWallet__description {
+.myInfomarket__description {
   width: 30rem;
   line-height: 1.9;
 }
 
-.myInfoWallet__description > h4{
+.myInfomarket__description > h4{
   font-size: 1.2rem;
 }
 

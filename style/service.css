@@ -1,0 +1,124 @@
+#banner {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/service.webp");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 35rem;
+  display: flex;
+  align-items: center;
+  color:white;
+}
+
+.banner__textBox {
+  width: 100%;
+  padding-left: 15vw;
+}
+
+.banner__title {
+  margin:0;
+}
+
+.banner__subtitle {
+  margin:0;
+}
+
+/* Service */
+#service {
+  padding-top: 10rem;
+}
+
+.service__intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10rem;
+}
+
+.service__description {
+  width: 30rem;
+  line-height: 1.9;
+}
+
+.service__description > h4 {
+  font-size: 1.2rem;
+}
+
+/* Keyword */
+
+#keyword {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/api.webp");
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.keyword__item__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40rem;
+  height: 40vh;
+}
+
+.keyword__item__box {
+  position: relative;
+}
+
+.keyword__item__image {
+  position: absolute;
+  top: -1rem;
+  left: -3rem;
+  z-index: 0;
+  opacity: 0.3;
+}
+
+.keyword__item__text {
+  position: relative;
+  width: 20rem;
+  z-index: 1;
+}
+
+.text__list > li {
+  list-style: disc;
+  font-size: 1.2rem;
+}
+
+/* Characteristics */
+
+/* #char {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/api.webp");
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding:10rem 0 10rem 0;
+  color: white;
+}
+
+.char__title {
+  margin-bottom:5rem;
+}
+
+.char__items {
+  display: flex;
+  justify-content: space-between;
+  width: 60vw;
+}
+
+.char__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.item__image {
+  width: 8vw;
+  height: auto;
+  margin:1rem;
+}
+
+.item__text {
+  margin:1rem
+} */

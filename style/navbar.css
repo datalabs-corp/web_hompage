@@ -16,7 +16,13 @@
 }
 
 .navbar__logo {
+  width: 4rem;
   margin-left: 2rem;
+}
+
+.navbar__logo > img {
+  width: 100%;
+  height: auto;
 }
 
 .navbar__menu {

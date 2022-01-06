@@ -12,8 +12,27 @@
   background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/management.webp");
 }
 
-.members.parallax {
-  background-image: url("../images/banner.png");
+#banner {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/about.webp");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 35rem;
+  display: flex;
+  align-items: center;
+  color:white;
+}
+
+.banner__textBox {
+  width: 100%;
+  padding-left: 15vw;
+}
+
+.banner__title {
+  margin:0;
+}
+
+.banner__subtitle {
+  margin:0;
 }
 
 #contact {

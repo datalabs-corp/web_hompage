@@ -26,7 +26,7 @@
   padding-top: 10rem;
 }
 
-.service__intro {
+/* .service__intro {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -40,6 +40,51 @@
 
 .service__description > h4 {
   font-size: 1.2rem;
+} */
+
+.service__item {
+  display: flex;
+  height: 30rem;
+  margin-bottom: 10rem;
+}
+
+.service__description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40vw;
+}
+
+.service__text {
+  padding: 1rem;
+  width: 30rem;
+  font-size: 1.2rem;
+  line-height: 1.9;
+}
+
+.service__image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60vw;
+  color: white;
+}
+
+.service__image__title {
+  padding:1rem;
+}
+
+
+.img1 {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("../images/baas.webp");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.img2 {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("../images/api_service.webp");
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 /* Keyword */
@@ -83,42 +128,3 @@
   list-style: disc;
   font-size: 1.2rem;
 }
-
-/* Characteristics */
-
-/* #char {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/api.webp");
-  background-size: cover;
-  background-attachment: fixed;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding:10rem 0 10rem 0;
-  color: white;
-}
-
-.char__title {
-  margin-bottom:5rem;
-}
-
-.char__items {
-  display: flex;
-  justify-content: space-between;
-  width: 60vw;
-}
-
-.char__item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.item__image {
-  width: 8vw;
-  height: auto;
-  margin:1rem;
-}
-
-.item__text {
-  margin:1rem
-} */

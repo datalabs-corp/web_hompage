@@ -16,8 +16,10 @@
 .footer__description {
   display: flex;
   justify-content: space-between;
-  width: 15rem;
+  align-items: center;
+  width: 20rem;
 }
+
 
 .footer__logo {
   width: 3rem;

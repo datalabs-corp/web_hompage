@@ -216,21 +216,25 @@
 
 .management__container {
   width: 100%;
-  height: 50rem;
-  display: flex;
   justify-content: center;
   align-items: center;
   color: var(--color-white); 
+  padding-top:30rem;
+}
+
+.management__box {
+  display: flex;
 }
 
 .management__page {
+  width: 100%;
+  height: 100vh;
   animation: pageFold 0.5s;
 }
 
 .management__iconbox {
   display: flex;
-  justify-content: space-between;
-  width: 50rem;
+  justify-content: center;
 }
 
 .management__content {
@@ -239,9 +243,8 @@
 
 .management__textbox {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   text-align: left;
-  width: 55rem;
 }
 
 .management__text {

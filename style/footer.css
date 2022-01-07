@@ -3,7 +3,7 @@
 #footer {
   background-color: black;
   color: gray;
-  padding: 2rem 5rem 2rem 5rem;
+  padding: 2vh 5vw 2vh 5vw;
 }
 
 .footer__container {
@@ -21,4 +21,10 @@
 
 .footer__logo {
   width: 3rem;
+}
+
+@media screen and (min-width: 360px) and (max-width: 767px) {
+  .footer__container {
+    display: block;
+  }
 }

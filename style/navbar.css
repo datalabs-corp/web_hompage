@@ -34,3 +34,72 @@
   padding: 1rem 0rem;
   cursor: pointer;
 }
+
+.hamburger__button {
+  width: 3rem;
+  height: 3rem;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.hamburger__menu {
+  background-color: rgb(49, 49, 49);
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 20rem;
+  height: 100%;
+  animation: leftSlide 0.5s;
+}
+
+.x__box {
+  display: flex;
+  justify-content: right;
+}
+
+.x__button {
+  width: 3rem;
+  height: 3rem;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.hamburger__list__item {
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+/* 태블릿 */
+@media screen and (min-width: 768px) and (max-width:1023px) {
+  .hamburger__button {
+    display: block;
+  }
+
+  .navbar__menu {
+    display: none;
+  }
+}
+
+/* 모바일 */
+@media screen and (min-width: 360px) and (max-width: 767px) {
+  .hamburger__button {
+    display: block;
+  }
+
+  .navbar__menu {
+    display: none;
+  }
+}
+
+/* animation */
+
+@keyframes leftSlide {
+  from {
+    opacity: 0;
+    transform: translateX(10rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

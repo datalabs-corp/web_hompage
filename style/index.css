@@ -193,13 +193,67 @@
 .main__char__subtitle {
   text-align: center;
   margin: 2rem 1rem 2rem 1rem;
-  font-size: 1.7vw;
+  font-size: 1.7rem;
 }
 
 .main__char__description {
-  font-size: 1.2vw;
+  font-size: 1.2rem;
   line-height: 1.5;
 }
+
+/* media query */
+
+/* 태블릿 */
+@media screen and (min-width: 768px) and (max-width:1023px) {
+  .banner__title {
+    font-size: 4vw;
+  }
+
+  .banner__description {
+    font-size: 2vw;
+  }
+
+  .main__char__subtitle {
+    font-size: 1rem;
+  }
+
+  .main__char__description {
+    font-size:0.8rem;
+  }
+}
+
+/* 모바일 */
+@media screen and (min-width: 360px) and (max-width: 767px) {
+  .banner__title {
+    width: 80vw;
+    font-size: 10vw;
+  }
+  
+  .banner__description {
+    width: 80vw;
+    font-size: 4vw;
+  }
+
+  .slide__gauge {
+    width: 5rem;
+  }
+
+  .myInfomarket__description {
+    width: 20rem;
+  }
+
+  .main__char__items {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .main__char__item {
+    width: 90vw;
+    margin-bottom: 1rem;
+  }
+}
+
+/* animation */
 
 @keyframes rightSlide {
   from {

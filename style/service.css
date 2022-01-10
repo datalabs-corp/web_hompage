@@ -120,7 +120,7 @@
 
 @media screen and (min-width: 360px) and (max-width: 767px) {
   #service {
-    padding-top: 3rem;
+    padding: 3rem 0 3rem 0;
   }
 
   .banner__title {
@@ -150,7 +150,6 @@
   }
 
   .service__image {
-    /* color: black; */
     width: 100vw;
   }
 

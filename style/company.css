@@ -152,8 +152,8 @@
 }
 
 .management__text {
-  padding: 2rem;
-  width: 10rem;
+  padding: 1rem;
+  width: 9rem;
 }
 
 .management__title {
@@ -162,10 +162,6 @@
 
 .management__lists {
   text-align: left;
-}
-
-.management__list {
-  list-style: disc;
 }
 
 /* 모바일 */
@@ -222,12 +218,14 @@
     height: auto;
   }
 
-  .management.parallax {
-    height: auto;
+  .management__title {
+    font-size: 2rem;
   }
 
   .management__textbox {
     flex-wrap: wrap;
+    justify-content: center;
     /* flex-direction: column; */
   }
+
 }

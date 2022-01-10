@@ -40,12 +40,13 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  width: auto;
 }
 
 .greeting__profile {
   display: flex;
   align-items: center;
-  width: 70rem;
+  width: 70vw;
 }
 
 .greeting__profile__image {
@@ -55,7 +56,7 @@
 
 .greeting__profile__book {
   display: flex;
-  width: 70rem;
+  width: 70vw;
 }
 
 .book__image {
@@ -74,8 +75,8 @@
 }
 
 .greeting__intro {
-  width: 80rem;
-  padding: 0 10rem 0 10rem;
+  width: 80vw;
+  padding: 0 0 0 8vw;
   font-size: 1.2rem;
   line-height: 1.5;
 }
@@ -180,12 +181,53 @@
     font-size: 4vw;
   }
 
+  .greeting__container {
+    display: flex;
+    flex-direction: column;
+  }
+
   .greeting__intro {
-    width: 10rem;
+    
+    width: 80vw;
     padding: 0;
   }
 
   .greeting__profile {
-    
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .greeting__profile__image {
+    padding: 1rem;
+  }
+
+  .greeting__profile__book {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%
+  }
+
+  .book__image {
+    width: 12rem;
+  }
+
+  .book__text {
+    width: 80vw;
+    padding:0;
+  }
+  .management {
+    height: auto;
+  }
+
+  .management.parallax {
+    height: auto;
+  }
+
+  .management__textbox {
+    flex-wrap: wrap;
+    /* flex-direction: column; */
   }
 }

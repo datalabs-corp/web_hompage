@@ -77,6 +77,7 @@
   background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/api.webp");
   background-size: cover;
   background-attachment: fixed;
+  width: 100%;
   display: flex;
   justify-content: center;
   color: white;
@@ -111,4 +112,58 @@
 .text__list > li {
   list-style: disc;
   font-size: 1.2rem;
+}
+
+.phone1 {
+  display: none;
+}
+
+@media screen and (min-width: 360px) and (max-width: 767px) {
+  #service {
+    padding-top: 3rem;
+  }
+
+  .banner__title {
+    width: 80vw;
+    font-size: 10vw;
+  }
+  
+  .banner__subtitle {
+    width: 80vw;
+    font-size: 4vw;
+  }
+
+  .service__item {
+    display: block;
+  }
+
+  .phone1 {
+    display: block;
+  }
+
+  .phone2 {
+    display: none;
+  }
+
+  .service__description {
+    width: 100vw;
+  }
+
+  .service__image {
+    /* color: black; */
+    width: 100vw;
+  }
+
+  .service__description .service1 {
+    display: flex;
+  }
+
+  #keyword {
+    display: block;
+    height: auto;
+  }
+
+  .keyword__item__container {
+    width: 100%;
+  }
 }

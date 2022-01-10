@@ -204,6 +204,7 @@
   width: 100%;
 }
 
+
 /* Animation */
 
 @keyframes leftSlide {
@@ -225,5 +226,117 @@
   to {
     opacity: 1;
     transform: translateX(0);
+  }
+}
+
+/* Media query */
+
+/* 태블릿 */
+@media screen and (min-width: 768px) and (max-width:1023px) {
+  .banner__title {
+    font-size: 4vw;
+  }
+
+  .banner__description {
+    font-size: 2vw;
+  }
+
+  .intro__card {
+    margin:0;
+  }
+
+}
+
+/* 모바일 */
+@media screen and (min-width: 360px) and (max-width: 767px) {
+  .banner__title {
+    width: 80vw;
+    font-size: 10vw;
+  }
+  
+  .banner__subtitle {
+    width: 80vw;
+    font-size: 4vw;
+  }
+
+  .technology__description {
+    width: 90vw;
+  }
+  
+  .technology__img {
+    display: none;
+  }
+
+  .technology__img__container {
+    display: none;
+  }
+
+  .intro__card__container {
+    position: static;
+  }
+
+  .intro__card {
+    position:static;
+    display: block;
+    width: 90vw;
+    padding:0;
+    padding:1rem;
+  }
+
+  .intro__description {
+    width: 100%;
+  }
+
+  #why {
+    padding:1rem;
+  }
+
+  .why__title {
+    margin-bottom: 4rem;
+  }
+
+  .description__title {
+    font-size: 2rem;
+  }
+
+  .description__number {
+    font-size: 5rem;
+    left:-1rem;
+  }
+
+  .why__img {
+    display: none;
+  }
+
+  .why__container {
+    /* display: block; */
+    justify-content: center;
+    width: 100%;
+  }
+
+  .why__description {
+    width: 90%;
+  }
+
+  .description__container {
+    width:auto;
+  }
+
+  #datachain {
+    display: none;
+  }
+
+  #architecture {
+    display: none;
+  }
+
+  .main__char__items {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .main__char__item {
+    width: 90vw;
+    margin-bottom: 1rem;
   }
 }

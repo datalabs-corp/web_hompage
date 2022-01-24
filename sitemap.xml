@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+	<loc>http://data-labs.co.kr/</loc>
+  <priority>0.8</priority>
+  </url>
+  <url>
+	<loc>http://data-labs.co.kr/service.html</loc>
+  <priority>0.1</priority>
+  </url>  
+  <url>
+	<loc>http://data-labs.co.kr/technology.html</loc>
+  <priority>0.1</priority>
+  </url>  
+  <url>
+	<loc>http://data-labs.co.kr/company.html</loc>
+  </url>  
+</urlset>

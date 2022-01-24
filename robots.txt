@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: http://data-labs.co.kr/sitemap.xml

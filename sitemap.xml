@@ -6,13 +6,14 @@
   </url>
   <url>
 	<loc>http://data-labs.co.kr/service.html</loc>
-  <priority>0.1</priority>
+  <priority>0.7</priority>
   </url>  
   <url>
 	<loc>http://data-labs.co.kr/technology.html</loc>
-  <priority>0.1</priority>
+  <priority>0.7</priority>
   </url>  
   <url>
 	<loc>http://data-labs.co.kr/company.html</loc>
+  <priority>0.7</priority>
   </url>  
 </urlset>
